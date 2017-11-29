@@ -1,0 +1,10 @@
+@function r($px) {
+    @return $px / 32 * 1rem;
+}
+.el-header {
+    background-color:rgb(13, 87, 185);
+    color:#fff;
+    font-size: r(32);
+    text-align: center;
+    line-height: 60px;
+}
